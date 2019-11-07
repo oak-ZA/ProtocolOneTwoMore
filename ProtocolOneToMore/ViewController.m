@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "ProtocolTools.h"
 #import "SecondViewController.h"
+#import "TestView.h"
 @interface ViewController ()<ProtocolToolsDelegate>{
     ProtocolTools *         _protocol;
 }
@@ -33,6 +34,11 @@
     button.layer.masksToBounds = YES;
     [button addTarget:self action:@selector(clickButton) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];
+    
+    
+    
+    TestView *view = [[TestView alloc] initWithFrame:CGRectMake(100, 250, 100, 100)];
+    [self.view addSubview:view];
 }
 
 -(void)clickButton{

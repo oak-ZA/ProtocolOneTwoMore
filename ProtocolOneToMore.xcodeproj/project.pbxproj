@@ -18,6 +18,7 @@
 		A688CD90237438B400113A29 /* ProtocolTools.m in Sources */ = {isa = PBXBuildFile; fileRef = A688CD8F237438B400113A29 /* ProtocolTools.m */; };
 		A688CD9323743C3C00113A29 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A688CD9223743C3C00113A29 /* SecondViewController.m */; };
 		A688CD9623743DE500113A29 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A688CD9523743DE500113A29 /* ThirdViewController.m */; };
+		A688CD992374431B00113A29 /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = A688CD982374431B00113A29 /* TestView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,8 @@
 		A688CD9223743C3C00113A29 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		A688CD9423743DE500113A29 /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		A688CD9523743DE500113A29 /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		A688CD972374431B00113A29 /* TestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		A688CD982374431B00113A29 /* TestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +121,8 @@
 				A688CD9223743C3C00113A29 /* SecondViewController.m */,
 				A688CD9423743DE500113A29 /* ThirdViewController.h */,
 				A688CD9523743DE500113A29 /* ThirdViewController.m */,
+				A688CD972374431B00113A29 /* TestView.h */,
+				A688CD982374431B00113A29 /* TestView.m */,
 				A688CD8E237438B400113A29 /* ProtocolTools.h */,
 				A688CD8F237438B400113A29 /* ProtocolTools.m */,
 				A688CD622374388600113A29 /* Main.storyboard */,
@@ -277,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A688CD992374431B00113A29 /* TestView.m in Sources */,
 				A688CD9323743C3C00113A29 /* SecondViewController.m in Sources */,
 				A688CD612374388600113A29 /* ViewController.m in Sources */,
 				A688CD9623743DE500113A29 /* ThirdViewController.m in Sources */,
