@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A688CD5E2374388600113A29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A688CD5D2374388600113A29 /* AppDelegate.m */; };
+		A688CD612374388600113A29 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A688CD602374388600113A29 /* ViewController.m */; };
+		A688CD642374388600113A29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A688CD622374388600113A29 /* Main.storyboard */; };
+		A688CD662374388900113A29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A688CD652374388900113A29 /* Assets.xcassets */; };
+		A688CD692374388900113A29 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A688CD672374388900113A29 /* LaunchScreen.storyboard */; };
+		A688CD6C2374388900113A29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A688CD6B2374388900113A29 /* main.m */; };
+		A688CD762374388A00113A29 /* ProtocolOneToMoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A688CD752374388A00113A29 /* ProtocolOneToMoreTests.m */; };
+		A688CD812374388A00113A29 /* ProtocolOneToMoreUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A688CD802374388A00113A29 /* ProtocolOneToMoreUITests.m */; };
+		A688CD90237438B400113A29 /* ProtocolTools.m in Sources */ = {isa = PBXBuildFile; fileRef = A688CD8F237438B400113A29 /* ProtocolTools.m */; };
+		A688CD9323743C3C00113A29 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A688CD9223743C3C00113A29 /* SecondViewController.m */; };
+		A688CD9623743DE500113A29 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A688CD9523743DE500113A29 /* ThirdViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A688CD722374388A00113A29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A688CD512374388600113A29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A688CD582374388600113A29;
+			remoteInfo = ProtocolOneToMore;
+		};
+		A688CD7D2374388A00113A29 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A688CD512374388600113A29 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A688CD582374388600113A29;
+			remoteInfo = ProtocolOneToMore;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A688CD592374388600113A29 /* ProtocolOneToMore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProtocolOneToMore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A688CD5C2374388600113A29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A688CD5D2374388600113A29 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A688CD5F2374388600113A29 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A688CD602374388600113A29 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A688CD632374388600113A29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A688CD652374388900113A29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A688CD682374388900113A29 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A688CD6A2374388900113A29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A688CD6B2374388900113A29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A688CD712374388A00113A29 /* ProtocolOneToMoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtocolOneToMoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A688CD752374388A00113A29 /* ProtocolOneToMoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProtocolOneToMoreTests.m; sourceTree = "<group>"; };
+		A688CD772374388A00113A29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A688CD7C2374388A00113A29 /* ProtocolOneToMoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProtocolOneToMoreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A688CD802374388A00113A29 /* ProtocolOneToMoreUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProtocolOneToMoreUITests.m; sourceTree = "<group>"; };
+		A688CD822374388A00113A29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A688CD8E237438B400113A29 /* ProtocolTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProtocolTools.h; sourceTree = "<group>"; };
+		A688CD8F237438B400113A29 /* ProtocolTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProtocolTools.m; sourceTree = "<group>"; };
+		A688CD9123743C3C00113A29 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		A688CD9223743C3C00113A29 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		A688CD9423743DE500113A29 /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		A688CD9523743DE500113A29 /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A688CD562374388600113A29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A688CD6E2374388A00113A29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A688CD792374388A00113A29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A688CD502374388600113A29 = {
+			isa = PBXGroup;
+			children = (
+				A688CD5B2374388600113A29 /* ProtocolOneToMore */,
+				A688CD742374388A00113A29 /* ProtocolOneToMoreTests */,
+				A688CD7F2374388A00113A29 /* ProtocolOneToMoreUITests */,
+				A688CD5A2374388600113A29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A688CD5A2374388600113A29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A688CD592374388600113A29 /* ProtocolOneToMore.app */,
+				A688CD712374388A00113A29 /* ProtocolOneToMoreTests.xctest */,
+				A688CD7C2374388A00113A29 /* ProtocolOneToMoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A688CD5B2374388600113A29 /* ProtocolOneToMore */ = {
+			isa = PBXGroup;
+			children = (
+				A688CD5C2374388600113A29 /* AppDelegate.h */,
+				A688CD5D2374388600113A29 /* AppDelegate.m */,
+				A688CD5F2374388600113A29 /* ViewController.h */,
+				A688CD602374388600113A29 /* ViewController.m */,
+				A688CD9123743C3C00113A29 /* SecondViewController.h */,
+				A688CD9223743C3C00113A29 /* SecondViewController.m */,
+				A688CD9423743DE500113A29 /* ThirdViewController.h */,
+				A688CD9523743DE500113A29 /* ThirdViewController.m */,
+				A688CD8E237438B400113A29 /* ProtocolTools.h */,
+				A688CD8F237438B400113A29 /* ProtocolTools.m */,
+				A688CD622374388600113A29 /* Main.storyboard */,
+				A688CD652374388900113A29 /* Assets.xcassets */,
+				A688CD672374388900113A29 /* LaunchScreen.storyboard */,
+				A688CD6A2374388900113A29 /* Info.plist */,
+				A688CD6B2374388900113A29 /* main.m */,
+			);
+			path = ProtocolOneToMore;
+			sourceTree = "<group>";
+		};
+		A688CD742374388A00113A29 /* ProtocolOneToMoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				A688CD752374388A00113A29 /* ProtocolOneToMoreTests.m */,
+				A688CD772374388A00113A29 /* Info.plist */,
+			);
+			path = ProtocolOneToMoreTests;
+			sourceTree = "<group>";
+		};
+		A688CD7F2374388A00113A29 /* ProtocolOneToMoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A688CD802374388A00113A29 /* ProtocolOneToMoreUITests.m */,
+				A688CD822374388A00113A29 /* Info.plist */,
+			);
+			path = ProtocolOneToMoreUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A688CD582374388600113A29 /* ProtocolOneToMore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A688CD852374388A00113A29 /* Build configuration list for PBXNativeTarget "ProtocolOneToMore" */;
+			buildPhases = (
+				A688CD552374388600113A29 /* Sources */,
+				A688CD562374388600113A29 /* Frameworks */,
+				A688CD572374388600113A29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProtocolOneToMore;
+			productName = ProtocolOneToMore;
+			productReference = A688CD592374388600113A29 /* ProtocolOneToMore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A688CD702374388A00113A29 /* ProtocolOneToMoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A688CD882374388A00113A29 /* Build configuration list for PBXNativeTarget "ProtocolOneToMoreTests" */;
+			buildPhases = (
+				A688CD6D2374388A00113A29 /* Sources */,
+				A688CD6E2374388A00113A29 /* Frameworks */,
+				A688CD6F2374388A00113A29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A688CD732374388A00113A29 /* PBXTargetDependency */,
+			);
+			name = ProtocolOneToMoreTests;
+			productName = ProtocolOneToMoreTests;
+			productReference = A688CD712374388A00113A29 /* ProtocolOneToMoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A688CD7B2374388A00113A29 /* ProtocolOneToMoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A688CD8B2374388A00113A29 /* Build configuration list for PBXNativeTarget "ProtocolOneToMoreUITests" */;
+			buildPhases = (
+				A688CD782374388A00113A29 /* Sources */,
+				A688CD792374388A00113A29 /* Frameworks */,
+				A688CD7A2374388A00113A29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A688CD7E2374388A00113A29 /* PBXTargetDependency */,
+			);
+			name = ProtocolOneToMoreUITests;
+			productName = ProtocolOneToMoreUITests;
+			productReference = A688CD7C2374388A00113A29 /* ProtocolOneToMoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A688CD512374388600113A29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "张奥";
+				TargetAttributes = {
+					A688CD582374388600113A29 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					A688CD702374388A00113A29 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = A688CD582374388600113A29;
+					};
+					A688CD7B2374388A00113A29 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = A688CD582374388600113A29;
+					};
+				};
+			};
+			buildConfigurationList = A688CD542374388600113A29 /* Build configuration list for PBXProject "ProtocolOneToMore" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A688CD502374388600113A29;
+			productRefGroup = A688CD5A2374388600113A29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A688CD582374388600113A29 /* ProtocolOneToMore */,
+				A688CD702374388A00113A29 /* ProtocolOneToMoreTests */,
+				A688CD7B2374388A00113A29 /* ProtocolOneToMoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A688CD572374388600113A29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A688CD692374388900113A29 /* LaunchScreen.storyboard in Resources */,
+				A688CD662374388900113A29 /* Assets.xcassets in Resources */,
+				A688CD642374388600113A29 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A688CD6F2374388A00113A29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A688CD7A2374388A00113A29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A688CD552374388600113A29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A688CD9323743C3C00113A29 /* SecondViewController.m in Sources */,
+				A688CD612374388600113A29 /* ViewController.m in Sources */,
+				A688CD9623743DE500113A29 /* ThirdViewController.m in Sources */,
+				A688CD90237438B400113A29 /* ProtocolTools.m in Sources */,
+				A688CD6C2374388900113A29 /* main.m in Sources */,
+				A688CD5E2374388600113A29 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A688CD6D2374388A00113A29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A688CD762374388A00113A29 /* ProtocolOneToMoreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A688CD782374388A00113A29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A688CD812374388A00113A29 /* ProtocolOneToMoreUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A688CD732374388A00113A29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A688CD582374388600113A29 /* ProtocolOneToMore */;
+			targetProxy = A688CD722374388A00113A29 /* PBXContainerItemProxy */;
+		};
+		A688CD7E2374388A00113A29 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A688CD582374388600113A29 /* ProtocolOneToMore */;
+			targetProxy = A688CD7D2374388A00113A29 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A688CD622374388600113A29 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A688CD632374388600113A29 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A688CD672374388900113A29 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A688CD682374388900113A29 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A688CD832374388A00113A29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A688CD842374388A00113A29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A688CD862374388A00113A29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProtocolOneToMore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aozhang.ProtocolOneToMore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A688CD872374388A00113A29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProtocolOneToMore/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aozhang.ProtocolOneToMore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A688CD892374388A00113A29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProtocolOneToMoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aozhang.ProtocolOneToMoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProtocolOneToMore.app/ProtocolOneToMore";
+			};
+			name = Debug;
+		};
+		A688CD8A2374388A00113A29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProtocolOneToMoreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aozhang.ProtocolOneToMoreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ProtocolOneToMore.app/ProtocolOneToMore";
+			};
+			name = Release;
+		};
+		A688CD8C2374388A00113A29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProtocolOneToMoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aozhang.ProtocolOneToMoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProtocolOneToMore;
+			};
+			name = Debug;
+		};
+		A688CD8D2374388A00113A29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ProtocolOneToMoreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.aozhang.ProtocolOneToMoreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ProtocolOneToMore;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A688CD542374388600113A29 /* Build configuration list for PBXProject "ProtocolOneToMore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A688CD832374388A00113A29 /* Debug */,
+				A688CD842374388A00113A29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A688CD852374388A00113A29 /* Build configuration list for PBXNativeTarget "ProtocolOneToMore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A688CD862374388A00113A29 /* Debug */,
+				A688CD872374388A00113A29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A688CD882374388A00113A29 /* Build configuration list for PBXNativeTarget "ProtocolOneToMoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A688CD892374388A00113A29 /* Debug */,
+				A688CD8A2374388A00113A29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A688CD8B2374388A00113A29 /* Build configuration list for PBXNativeTarget "ProtocolOneToMoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A688CD8C2374388A00113A29 /* Debug */,
+				A688CD8D2374388A00113A29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A688CD512374388600113A29 /* Project object */;
+}
